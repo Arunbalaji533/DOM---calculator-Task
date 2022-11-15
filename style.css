@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    margin:50px 100px;
+    justify-content: center;
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+    border:2px solid black;
+    width:400px;
+    height:500px;
+    padding: 40px 40px;
+    background-color: aqua;
+}
+.thead{
+    border: 2px solid black;
+    margin: 1px;
+}
+.th1{
+    width: 215px;
+    height: 65px;
+    font-size: large;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+}  
+#th2{
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30PX;
+    background-color:pink;
+    color: red;
+}  
+.tdata{
+    border: 2px solid black;
+    margin: 1px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 50PX;
+    background-color: violet;
+    color: white;
+}
+#tda{
+    color: red;
+}
